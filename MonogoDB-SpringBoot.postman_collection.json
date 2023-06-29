@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "6dc55cc0-3e7d-4c77-87a6-cb00dbb5439f",
+		"name": "MonogoDB-SpringBoot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/student/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Ankit\",\r\n        \"city\": \"Mumbai\",\r\n        \"college\": \"SLRTCE\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/student/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"student",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/student/",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 1,\r\n        \"name\": \"Ankit\",\r\n        \"city\": \"Mumbai\",\r\n        \"college\": \"SLRTCE\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/student/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 Jun 2023 03:42:55 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"name\": \"Ankit\",\n    \"city\": \"Mumbai\",\n    \"college\": \"SLRTCE\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/student/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/student/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"student",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/student/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/student/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 Jun 2023 03:43:08 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 4,\n        \"name\": \"Abhi4\",\n        \"city\": \"Kandivali4\",\n        \"college\": \"NCOCAS4\"\n    },\n    {\n        \"id\": 1,\n        \"name\": \"Ankit\",\n        \"city\": \"Mumbai\",\n        \"college\": \"SLRTCE\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Rahul\",\n        \"city\": \"Thane\",\n        \"college\": \"SLRTCE\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
